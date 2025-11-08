@@ -181,6 +181,11 @@ const onclose=((ele)=>
     moviemodel.classList.add("d-none");
    backdrop.classList.add("d-none");
      moviemodel1.reset();
+      update.classList.add("d-none");
+    addmovie.classList.remove("d-none");
+
+
+
 })
 
 add.addEventListener("click",onaddmovie);
