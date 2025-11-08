@@ -1,0 +1,188 @@
+<html lang="eng">
+<head>
+        <title>mcards</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="mt-5">
+                    <div class="row">
+                        <div class="col-6">
+                        <a href="index.html" class="logo">
+                                <img src="./assets/images/i.svg" alt="mcards logo" width="200">
+                            </a>
+                            
+                        </div>
+                        <div class="col-6 text-right d-flex justify-content-end align-items-center">
+                            <button id="add" class="btn btn-sm fr">add movie</button>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+        </div>
+        
+ <div class="container-fluid">
+    <div class="row" id="fff">
+  <!-- <div class="col-md-3 col-sm-3 m-0">
+      <div class="card card1 text-white">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="row"> <div class="col-10"><h3>title </h3> </div>
+                <div class="col-2">
+               <h3> <span class="badge-success">rate</span></h3>
+               </div>
+                </div></div>
+            <div class="card-body">
+                <figure>
+                    <img src="https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg" class="img-fluid" alt="fiif">
+                    <figcaption class="figcaption">
+                        <h5>title</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit maiores quam nobis totam vitae facilis,
+                             
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+             <div class="card-footer d-flex justify-content-between align-items-center">
+                <div class="zz">
+                    <button id="addm" type="button" class="btn-outline-primary">add</button>
+                    <button id="deletem" type="button" class="btn-outline-danger">close</button>
+                    </div>
+                    </div>
+        </div>
+        </div>
+    </div>--> 
+    </div>
+    </div>
+        
+        <div class="backdrop close1 d-none" id="backdrop"></div>
+        <div class="container">
+        <div class="moviemodel d-none" id="moviemodel">
+            <form id="moviemodel1">
+                <div class="card">
+                    <div class="card-header p-0 d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Add Movie</h5>
+                        <span class="close1 cc">+</span>
+
+                    </div> 
+                    <div class="card-body p-0">
+                        <div class="form-group">
+                            <label for="moviename">Movie Name</label>
+                            <input type="text" class="form-control" id="moviename" placeholder="Enter movie name" required>
+                           </div>
+                           <div class="form-group "> <label for="movieimgurl">movieimgurl</label>
+                            <input type="text" class="form-control" id="movieimgurl" placeholder="Enter movie image url" required>
+                            </div>
+
+
+                             <div class="form-group">
+                             <label for="rate">rate</label>
+                            <select id="rate" class="form-control" id="rate" required>
+                            <option value="2">*</option>
+                            <option value="3">**</option>
+                            <option value="4">***</option>
+                            <option value="5">****</option>
+                            <option value="6">*****</option>
+                            </select>
+                            </div>
+                            <div class="form-group">
+                             <label for="discriptio">discriptio</label>
+                            <textarea type="text" class="form-control" id="discriptio" placeholder="Enter discriptio" required></textarea>
+                        </div>
+                         </div> 
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                    <button id="submit" type="submit" class="btn btn-sm add">add</button>
+                     <button id="update" type="button" class="btn-outline-primary d-none">update</button>
+                    <button id="button" type="button" class="btn btn-sm nadd close1">close</button>
+                    </div>
+                    </div> 
+            </form>
+     
+        </div>
+    </div>
+  <!--   <div class="container-fluid">
+    <div class="row" id="fff">
+  <div class="col-md-3 col-sm-3 m-0">
+      <div class="card card1 text-white">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="row"> <div class="col-10"><h3>title </h3> </div>
+                <div class="col-2">
+               <h3> <span class="badge">rate</span></h3>
+               </div>
+                </div></div>
+            <div class="card-body">
+                <figure>
+                    <img src="https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg" 
+                    class="img-fluid" alt="fiif">
+                    <figcaption class="figcaption">
+                        <h5>title</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit maiores quam nobis totam vitae facilis,
+                             
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+             <div class="card-footer d-flex justify-content-between align-items-center">
+                <div class="zz">
+                    <button id="addm" type="button" class="btn-outline-primary">add</button>
+                    <button id="deletem" type="button" class="btn-outline-danger">close</button>
+                    </div>
+                    </div>
+        </div>
+        </div>
+    </div> 
+    </div>
+    </div>-->
+
+  <!--  <div class="container-fluid mt-4">
+  <div class="row" id="movie">
+   <div class="col-md-3 mb-4">
+  <div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-10">
+                title  
+            </div>
+            <div class="col-2">
+                <span class="badge badge-success"> ss </span>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-body p-0">
+  <figure class="miviecard mb-0">
+    <img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg" alt="movie" title="movie" >
+ </figure>  
+</div>
+  <div class="card-footer d-flex justify-content-between align-items-center">
+                    <button id="ss" type="submit" class="btn btn-sm add">add</button>
+                    <button id="ss1" type="button" class="btn btn-sm nadd close1">close</button>
+                    </div>
+  </div> 
+  <figcaption>
+  <div class="overview"> 
+    <h5> sssss
+    </h5>    
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Commodi, ullam. Labore quos, incidunt quo porro fuga veritatis facilis. Provident nihil quis quae ut iusto   
+    </p>    
+    </div> 
+    </figcaption> 
+    </div>
+    </div>      
+        </div>
+        </div>--> 
+        
+       
+		
+   
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    </body>    
+

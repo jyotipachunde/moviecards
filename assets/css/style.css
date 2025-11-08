@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    
+}
+a img{ 
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    
+}
+.fr{
+    font-size: 38px;
+    background-color:#e50914;
+    color: white;
+    text-transform: capitalize;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.85) 3%,
+      rgba(0, 0, 0, 0.8465) 11.8%,
+      rgba(0, 0, 0, 0.8) 17.7%,
+      rgba(0, 0, 0, 0.7944) 23.3%,
+      rgba(0, 0, 0, 0.762) 43.4%,
+      rgba(0, 0, 0, 0.725) 51.5%,
+      rgba(0, 0, 0, 0.6856) 59.8%,
+      rgba(0, 0, 0, 0.6556) 67.6%,
+      rgba(0, 0, 0, 0.6356) 75.3%,
+      rgba(0, 0, 0, 0.6) 83.1%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../images/im.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(1px);
+    z-index: -1;
+}
+.add{
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.nadd{
+    padding: 0;
+    background-color: #e50914;
+    border: 0;
+    color: white;
+}
+.active{
+    display: block;
+}
+.cc{
+    padding: 20px;
+    font-size: 35px;
+}
+.backdrop{
+    background-color: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    opacity: .2;
+    cursor: pointer;
+}
+.moviemodel {
+    position: fixed;
+    width: 60%;
+    left: 20%;
+    top: 5%;
+    bottom: 5%;
+    height: 80vh;
+    max-height: 60%;
+    overflow-y: auto;
+    scrollbar-width: 5px;
+}
+.moviemodel{
+    animation: aaa 0.5s ease-in-out;
+}
+
+
+.card1{
+    overflow: hidden;
+    background-color: transparent !important;
+  
+}
+.card1 h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 28px;
+    
+}
+.card1 figure{
+    margin: 0;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.Card1 figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Card1 figcaption{
+    position: absolute;
+    left:0;
+    width: 100%;
+    top:35%;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    transform: translateY(120%);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    
+}
+.badge{
+    width: 100%;
+    padding: 0;
+}
+
+
+.card1 :is(:hover,:focus,:active) .figcaption{
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+
+
+
+
+
+@keyframes aaa{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
