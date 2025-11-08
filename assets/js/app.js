@@ -180,6 +180,7 @@ const onclose=((ele)=>
 {
     moviemodel.classList.add("d-none");
    backdrop.classList.add("d-none");
+     moviemodel1.reset();
 })
 
 add.addEventListener("click",onaddmovie);
