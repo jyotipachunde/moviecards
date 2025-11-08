@@ -49,8 +49,8 @@ let createmoviecard=((arr)=>{
   arr.forEach((element) => {
     r+=` 
        <div class="col-md-3 col-sm-6 m-0">
-      <div class="card card1 text-white" id="${element.id}">
-            <div class="card-header m-0">
+      <div class="card mb-3 card1 text-white" id="${element.id}">
+            <div class="card-header p-2">
                 <div class="row d-flex justify-content-between align-items-center"> <div class="col-10"><h3>${element.name} </h3> </div>
                 <div class="col-2 p-0">
                <h3> <span class="badge ${sbadge(element.ratee)}">${element.ratee}</span></h3>
@@ -66,10 +66,10 @@ let createmoviecard=((arr)=>{
                     </figcaption>
                 </figure>
             </div>
-             <div class="card-footer d-flex justify-content-between align-items-center">
+             <div class="card-footer p-2 d-flex justify-content-between align-items-center">
                 
-                    <button id="ad" type="button" onclick="onedit(this)" class="btn-outline-primary">edit</button>
-                    <button id="de" type="button" onclick="onremove(this)" class="btn-outline-danger">delete</button>
+                    <button id="ad" type="button" onclick="onedit(this)" class="btn-sm add">edit</button>
+                    <button id="de" type="button" onclick="onremove(this)" class="btn-sm nadd">delete</button>
                     </div>
                     
         </div>

@@ -59,7 +59,7 @@ body::after {
     z-index: -1;
 }
 .add{
-    background-color: greenyellow;
+    background-color:#e50914 ;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -67,7 +67,7 @@ body::after {
 }
 .nadd{
     padding: 0;
-    background-color: #e50914;
+    background-color:#212529;
     border: 0;
     color: white;
 }
@@ -102,12 +102,19 @@ body::after {
 .moviemodel{
     animation: aaa 0.5s ease-in-out;
 }
+.moviemodel .card{
+   background-color: black !important;
+   color: white;
+   border: white;
+}
+.form-control{
+    background-color: black !important;
+    color: white !important;}
 
 
 .card1{
     overflow: hidden;
-    background-color: transparent !important;
-  
+    background-color: black !important;
 }
 .card1 h3{
     height: 40px;
